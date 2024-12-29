@@ -26,7 +26,7 @@ void Application::Init()
 	auto SystemMain_Audio = m_ComponentStack->AttachComponent<AudioComponent>("SystemVoice", m_AudioEngine, "src/assets/System/Sounds/System_Init.wav", "Voice");
 	SystemMain_SFX.lock().get()->PlayAudio();
 	Sleep(1000);
-	SystemMain_Audio.lock().get()->PlayAudio();
+	//SystemMain_Audio.lock().get()->PlayAudio();
 	
 
 	//// INIT ALL MAIN SYSTEMS
