@@ -1,0 +1,19 @@
+{ "audio": [
+    {
+      "channel": "Voice",
+      "description": [ "all auditory output", "voice", "talking" ]
+    },
+    {
+      "channel": "SFX",
+      "description": [ "sounds effects" ]
+    },
+    {
+      "channel": "Music",
+      "description": [ "music", "songs" ]
+    },
+    {
+      "channel": "All",
+      "description": [ "mute", "mute all" ]
+    }
+  ]
+}

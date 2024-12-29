@@ -1,0 +1,30 @@
+{
+  "intents": [
+
+    // AUDIO FUNCTIONALITY
+
+    {
+      "tag": 1,
+      "patterns": [ "mute please", "silence" ],
+      "responses": []
+    },
+    {
+      "tag": 2,
+      "patterns": [ "unmute", "you can talk again", "play music again" ],
+      "responses": []
+    },
+    {
+      "tag": 3,
+      "patterns": [ "pause", "stop playing music", "stop playing songs", "stop" ],
+      "responses": []
+    },
+    {
+      "tag": 4,
+      "patterns": [ "alright continue", "start playing again", "unpause" ],
+      "responses": []
+    }
+
+
+
+  ]
+}
